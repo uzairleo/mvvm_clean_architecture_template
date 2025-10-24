@@ -12,6 +12,9 @@ Opinionated Flutter template that applies Clean Architecture principles with an 
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
+![clean_architecture_extendedMVVM](https://github.com/user-attachments/assets/fcb25247-8715-4a1b-9cb6-f56c849471d2)
+
+
 - **Presentation layer** owns UI, state, and navigation. Widgets talk only to ViewModels, which expose reactive state and delegate work to the domain layer.
 - **Domain layer** is framework-agnostic. It contains entities, value objects, use cases, and repository interfaces. This layer defines *what* the app does.
 - **Data layer** provides implementations for the repositories declared in the domain. It orchestrates remote APIs, local caches, and models to satisfy domain contracts. This layer decides *how* data is fetched or persisted.
